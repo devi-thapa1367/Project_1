@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="invoice-box">
+        <table class="main-table">
+            <!-- Header Section -->
+            <tr>
+                <td colspan="5" class="company-header">
+                    <h2>Zylker Electronics Hub</h2>
+                    <p>Northern Street,</p>
+                    <p>Greater South Avenue,</p>
+                    <p>New York,</p>
+                    <p>New York 10001, U.S.A.</p>
+                </td>
+            </tr>
+
+            <!-- Invoice Details Row -->
+            <tr class="section-row">
+                <td colspan="3" class="details-cell">
+                    <table class="inner-table">
+                        <tr>
+                            <td><strong>Invoice</strong></td>
+                            <td>IND-00128</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Invoice Date</strong></td>
+                            <td>5th August, 2006</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Terms</strong></td>
+                            <td>Due on Receipt</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Due Date</strong></td>
+                            <td>19.01.2005</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2" class="details-cell"></td>
+            </tr>
+
+            <!-- Bill To / Ship To Header -->
+            <tr class="header-row">
+                <td colspan="3" class="text-center bold">Bill To</td>
+                <td colspan="2" class="text-center bold">Ship To</td>
+            </tr>
+
+            <!-- Bill To / Ship To Details -->
+            <tr class="section-row">
+                <td colspan="3" class="address-cell">
+                    <strong>Ms. Mary D. Dunton</strong><br>
+                    1324 Hinkle Lake Road<br>
+                    Needham<br>
+                    02192 Maine
+                </td>
+                <td colspan="2" class="address-cell">
+                    1324 Hinkle Lake Road<br>
+                    Needham<br>
+                    02192 Maine
+                </td>
+            </tr>
+
+            <!-- Items Table Header -->
+            <tr class="items-header">
+                <th style="width: 10%;">Serial No</th>
+                <th style="width: 50%;">Item Description</th>
+                <th style="width: 10%; text-align: right;">Qty</th>
+                <th style="width: 15%; text-align: right;">Rate In $</th>
+                <th style="width: 15%; text-align: right;">Amount</th>
+            </tr>
+
+            <!-- Item 1 -->
+            <tr class="item-row">
+                <td class="text-center">1.</td>
+                <td>
+                    <strong>Camera</strong><br>
+                    <span class="sub-text">DSLR Camera with Advance Shooting Capabilities</span>
+                </td>
+                <td class="text-right">1.00</td>
+                <td class="text-right">$899.00</td>
+                <td class="text-right">899.00</td>
+            </tr>
+
+            <!-- Item 2 -->
+            <tr class="item-row">
+                <td class="text-center">2.</td>
+                <td>
+                    <strong>Fitness Tracker</strong><br>
+                    <span class="sub-text">Activity tracker with heart rate monitoring Capabilities</span>
+                </td>
+                <td class="text-right">1.00</td>
+                <td class="text-right">$129.00</td>
+                <td class="text-right">129.00</td>
+            </tr>
+
+            <!-- Item 3 -->
+            <tr class="item-row">
+                <td class="text-center">3.</td>
+                <td>
+                    <strong>Laptop</strong><br>
+                    <span class="sub-text">Lightweight laptop with a powerful processor Capabilities</span>
+                </td>
+                <td class="text-right">1.00</td>
+                <td class="text-right">$1,199.00</td>
+                <td class="text-right">1,199.00</td>
+            </tr>
+
+            <!-- SubTotal Row -->
+            <tr class="subtotal-row">
+                <td colspan="4" class="text-center bold">SubTotal</td>
+                <td class="text-right bold">$2,227.00</td>
+            </tr>
+
+            <!-- Footer INVOICE Text -->
+            <tr>
+                <td colspan="5" class="invoice-footer">
+                    INVOICE
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.invoice-box {
+    background-color: #fff;
+    border: 2px solid #000000; /* black outer border */
+    padding: 0;
+    width: 650px;
+    box-sizing: border-box;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main-table td, .main-table th {
+    padding: 6px 10px;
+    font-size: 12px;
+    color: #000;
+    vertical-align: top;
+}
+
+/* Header Section */
+.company-header {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.company-header h2 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+.company-header p {
+    margin: 2px 0;
+    font-size: 11px;
+}
+
+/* Inner Details Table */
+.inner-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inner-table td {
+    padding: 2px 0;
+    font-size: 11px;
+}
+
+/* Borders for sections */
+.details-cell {
+    border-bottom: 1px solid #000;
+}
+
+.details-cell:first-child {
+    border-right: 1px solid #000;
+}
+
+.header-row td {
+    border-bottom: 1px solid #000;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.address-cell {
+    border-bottom: 1px solid #000;
+    height: 80px;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.address-cell:first-child {
+    border-right: 1px solid #000;
+}
+
+/* Items Table */
+.items-header th {
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item-row td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sub-text {
+    font-size: 9px;
+    color: #555;
+}
+
+/* Subtotal Section */
+.subtotal-row td {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 8px 10px;
+}
+
+.subtotal-row td:first-child {
+    border-right: 1px solid #000;
+}
+
+/* Footer INVOICE */
+.invoice-footer {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 15px 0;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
